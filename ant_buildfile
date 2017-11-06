@@ -4,10 +4,10 @@
   </description>
   
   <!-- Global Properties -->
-  <property name="src" location="/project/src"/>
-  <property name="build" location="/project/bin"/>
-  <property name="test" location="/project/test"/>
-  <property name="build_test" location="/project/test_bin"/>
+  <property name="src" location="project/src"/>
+  <property name="build" location="project/bin"/>
+  <property name="test" location="project/test"/>
+  <property name="build_test" location="project/test_bin"/>
 
   <!-- Initialization -->
   <target name="init">
