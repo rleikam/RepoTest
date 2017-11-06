@@ -1,0 +1,32 @@
+<project name="TestProject" default="init" basedir=".">
+  <description>
+    Buildfile
+  </description>
+  
+  <!-- Global Properties -->
+  <property name="src" location="/project/src"/>
+  <property name="build" location="/project/bin"/>
+  <property name="test" location="/project/test"/>
+  <property name="build_test" location="/project/test_bin"/>
+
+  <!-- Initialization -->
+  <target name="init">
+    <!-- Create the build directory structure -->
+    <mkdir dir="${build}"/>
+    <mkdir dir="${build_test}"/>
+  </target>
+
+  <!-- Compile -->
+  <target name="compile" depends="init" description="Compile the source">
+    <!-- Compile the java code -->
+    <javac srcdir="${src}" destdir="${build}"/>
+    <javac srcdir="${test}" destdir="${build_test}"/>
+  </target>
+  
+  <!-- Test -->
+  <target name="test" depends="init" description="Compile the source">
+    <!-- Test java code -->
+    
+  </target>
+  
+</project>
