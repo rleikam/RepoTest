@@ -1,4 +1,5 @@
 language: java
-script:
+script: 
 echo "Ausgabe"
 echo "Test"
+
