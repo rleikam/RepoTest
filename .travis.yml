@@ -1,5 +1,5 @@
 language: java
 script: 
-echo "Ausgabe"
-echo "Test"
+  echo "Ausgabe"
+  echo "Test"
 
