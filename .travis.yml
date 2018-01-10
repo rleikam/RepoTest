@@ -3,17 +3,8 @@ language: java
 
 
 before_install:
-  - chmod +x script.sh
-
-install:
-  - echo "INSTALL"
-  - echo "INSTALL"
-  - echo "INSTALL"
-  - echo "INSTALL"
-  - echo "INSTALL"
-
-before_script:
-  - echo "BEFORE_SCRIPT"
+  - wget http://search.maven.org/remotecontent?filepath=org/dbunit/dbunit/2.5.4/dbunit-2.5.4.jar
+  - ls
 
 script: 
   - sudo ./script.sh
