@@ -1,4 +1,3 @@
 language: java
 script: 
-  - echo "Ausgabe"
-  - echo "Test"
+  - ./script.sh
