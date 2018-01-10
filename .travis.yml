@@ -7,6 +7,10 @@ before_install:
 
 install:
   - echo "INSTALL"
+  - echo "INSTALL"
+  - echo "INSTALL"
+  - echo "INSTALL"
+  - echo "INSTALL"
 
 before_script:
   - echo "BEFORE_SCRIPT"
