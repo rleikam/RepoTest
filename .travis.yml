@@ -2,3 +2,5 @@ language: java
 script: 
   - echo "Ausgabe"
   - echo "Test"
+  - pwd
+  - ls
